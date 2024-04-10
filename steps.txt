@@ -1,0 +1,8 @@
+git config --global user.name bruno-martignago
+git config --global user.email brunomartignago106@gmail.com
+
+dotnet new mvc -o GalloFlix
+
+dotnet new sln --name GalloFlix
+
+dotnet sln add GalloFlix/GalloFlix.csproj
