@@ -6,3 +6,15 @@ dotnet new mvc -o GalloFlix
 dotnet new sln --name GalloFlix
 
 dotnet sln add GalloFlix/GalloFlix.csproj
+
+Criar as classes de dados - Pasta Models
+
+Instalar os pacotes necessários:
+    Shift + Ctrl + P -> Nuget
+    Pesquisar e Instalar: 
+        EntityframeworkCore
+        EntityframeworkCore.Design
+        EntityframeworkCore.Tools
+        Pomelo
+
+Criar uma pasta Data - AppDbContext
