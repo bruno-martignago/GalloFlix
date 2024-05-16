@@ -149,7 +149,6 @@ namespace GalloFlix.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
         private bool GenreExists(byte id)
         {
             return _context.Genres.Any(e => e.Id == id);
